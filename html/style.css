@@ -1,0 +1,26 @@
+td.td-left-middle
+{
+    text-align: left;
+    vertical-align: middle;
+}
+
+td.td-center-middle
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.td-right-middle
+{
+    text-align: right;
+    vertical-align: middle;
+}
+
+.my-tooltip {
+    font-size: 16px;
+    font-family:'Courier New';
+}
+
+.display {
+    width:100%;    
+}

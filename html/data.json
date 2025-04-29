@@ -1,0 +1,25 @@
+{
+  "tables": [
+    {
+      "title": "Table #1",
+      "columns": [
+        {"data": "columnId_1", "title": "Identifier", "className":"td-left-middle"},
+        {"data": "columnId_2", "title": "Persone Name", "className":"td-center-middle"},
+        {"data": "columnId_3", "title": "Link", "className":"td-center-middle"},
+        {"data": "columnId_4", "title": "License", "help_url": "https://www.apache.org/licenses/LICENSE-2.0.txt", "className":"td-center-middle"}
+      ],
+      "data": [
+        {
+          "columnId_1": "1",
+          "columnId_2": "John Smith",
+          "columnId_3": {
+            "value": "GitHub Profile",
+            "href": "https://github.com/exadmin"
+          },
+          "columnId_4": "Ok"
+
+        }
+      ]
+    }
+  ]
+}
