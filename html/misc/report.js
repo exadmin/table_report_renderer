@@ -38,7 +38,7 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
     }
 } );
 
-$.getJSON('data.json', function(data) {
+$.getJSON('./data/data.json', function(data) {
     const reportName = data.reportName;
     const reportDate = data.reportDate;
     const tables = data.tables;
@@ -117,7 +117,7 @@ async function replaceMacros() {
         replaceMacrosIsDone = true;
 
         // 1. Fetch the external JSON file
-        const response = await fetch('macros.json');
+        const response = await fetch('./data/macros.json');
         if (!response.ok) {
             throw new Error('Failed to load data');
         }
